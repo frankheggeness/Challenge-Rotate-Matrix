@@ -19,7 +19,6 @@ module.exports = class MatrixRotator {
   //      v        or Direction.CCW
   rotate(direction) {
     // do work here
-    // console.log(this.matrix);
     let matrix = this.matrix;
 
     if (direction === 'ClockWise') {
